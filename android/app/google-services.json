@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "158205059907",
+    "firebase_url": "https://videe-app.firebaseio.com",
+    "project_id": "videe-app",
+    "storage_bucket": "videe-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158205059907:android:4fae7a38d04876732445f6",
+        "android_client_info": {
+          "package_name": "com.video_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158205059907-vgf6ujmdrd96mhh7hm7us0bc40k5vrl9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.video_app",
+            "certificate_hash": "34b4d9189c50802b0f25316e5e31bfbb7dbc9376"
+          }
+        },
+        {
+          "client_id": "158205059907-qkdud7b8asksc9tvvc2788v1sunhvqkv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPBVmK4hXRLI_EdKDaBbgViT5KpaQkdmk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "158205059907-qkdud7b8asksc9tvvc2788v1sunhvqkv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "158205059907-3juerh0lfst72cig3cm7f7t7oog43abn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sVideoApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

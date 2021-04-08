@@ -1,0 +1,275 @@
+name: video_app
+description: VideoApp new social network
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be oƒverridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 2.0.3+16
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dash_chat:
+    git:
+      url: https://github.com/fayeed/dash_chat.git
+  dio_flutter_transformer:
+    git:
+      url: https://github.com/coud/dio_flutter_transformer.git
+      ref: master
+  flutter_sms:
+    git:
+      url: https://github.com/tlkops/flutter_sms.git
+  gallery_saver:
+    git:
+      url: https://github.com/AhmetMelihSerter/gallery_saver.git
+      ref: master
+  inview_notifier_list:
+    git:
+      url: https://github.com/Garzas/inview_notifier_list.git
+      ref: master
+  jaguar_jwt:
+    git:
+      url: https://github.com/Jaguar-dart/session.git
+      path: jaguar_jwt
+  analyzer: ^1.3.0
+  animated_background: ^1.0.5
+  another_flushbar: ^1.10.17
+  auto_size_text: ^2.1.0
+  basic_utils: ^3.0.0-nullsafety.3
+  cached_network_image: ^3.0.0
+  cached_video_player: ^1.0.3
+  camera: ^0.8.1
+  clip_shadow: ^0.2.1
+  contacts_service: ^0.5.0-nullsafety.0
+  cupertino_icons: ^1.0.2
+  dio: ^4.0.0-prev3
+  expandable: ^5.0.1
+  fab_circular_menu: ^1.0.2
+  file_picker: ^3.0.0
+  firebase_auth: ^1.0.1
+  firebase_core: ^1.0.2
+  firebase_dynamic_links: ^0.8.0
+  firebase_messaging: ^9.1.0
+  flappy_search_bar: ^1.7.2
+  flappy_search_bar_fork: ^1.7.4
+  flare_flutter: ^3.0.0
+  fluro: ^2.0.3
+  flushbar: ^1.9.1
+  flutter_auth_buttons: ^0.10.0
+  flutter_custom_clippers: ^1.1.2
+  flutter_facebook_login: ^3.0.0
+  flutter_ffmpeg: ^0.4.0
+  flutter_form_builder: ^6.0.0-nullsafety.1
+  flutter_i18n: ^0.22.3
+  flutter_icons: ^1.1.0
+  flutter_local_notifications: ^5.0.0
+  flutter_rounded_progress_bar: ^0.2.0
+  flutter_speech: ^1.1.0
+  flutter_speed_dial: ^3.0.5
+  flutter_svg: ^0.21.0-nullsafety.0
+  flutter_swiper: ^1.1.6
+  flutter_tindercard: ^0.2.0
+  fluttertoast: ^8.0.3
+  font_awesome_flutter: ^9.0.0
+  getflutter: ^1.0.9
+  google_sign_in: ^5.0.1
+  gzx_dropdown_menu: ^3.0.0
+  image_cropper: ^1.4.0
+  image_picker: ^0.7.3
+  intl: ^0.17.0
+  ionicons: ^0.1.2
+  json_annotation: ^4.0.1
+  jwt_decoder: ^2.0.0
+  keyboard_actions: ^3.4.0
+  list_english_words: ^0.1.1+2
+  list_spanish_words: ^0.1.0
+  lite_rolling_switch: ^0.1.1
+  loading_overlay: ^0.3.0
+  localstorage: ^4.0.0+1
+  modal_bottom_sheet: ^2.0.0
+  overlay_container: ^0.0.5+1
+  overlay_support: ^1.2.0
+  percent_indicator: ^3.0.1
+  permission_handler: ^6.1.1
+  photo_manager: ^1.0.4
+  polygon_clipper: ^1.0.2
+  popup_menu: ^1.0.5
+  provider: ^5.0.0
+  pull_to_refresh: ^1.6.4
+  readmore: 
+    git:
+      url: https://github.com/epynic/readmore.git
+      ref: patch-1
+  responsive_builder: ^0.4.1
+  rflutter_alert: ^2.0.2
+  settings_ui: ^0.6.0
+  share: ^2.0.1
+  shared_preferences: ^2.0.5
+  sign_in_with_apple: ^3.0.0
+  simple_gesture_detector: ^0.2.0
+  slide_popup_dialog: ^0.0.2
+  social_share: ^2.1.1
+  speech_to_text: ^4.1.0-nullsafety
+  spell_checker: ^0.1.2+2
+  stream_transform: ^2.0.0
+  swipe_stack: ^1.0.0
+  thumbnails: ^1.0.1
+  timeago: ^3.0.2
+  tutorial_coach_mark: ^0.6.0+1
+  uni_links: ^0.4.0
+  url_launcher: ^6.0.3
+  video_compress: ^3.0.0
+  video_player: ^2.1.0
+  visibility_detector: ^0.2.0-nullsafety.1
+  wave_progress_bars: ^0.1.0
+  xmpp_stone: 
+    git:
+      url: https://github.com/romater0/xmpp_dart.git
+      ref: master
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^1.12.2
+  flutter_launcher_icons: ^0.9.0
+  json_serializable: ^4.1.0
+
+
+
+flutter_icons:
+  android: "ic_launcher"
+  ios: true
+  image_path: "lib/assets/images/icono.png"
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+# The following section is specific to Flutter.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #  - images/a_dot_burr.jpeg
+  #  - images/a_dot_ham.jpeg
+  assets:
+    - lib/assets/flutter_i18n/
+    - lib/assets/animations/
+    - lib/assets/images/
+    - lib/assets/images/Radio.jpg
+    - lib/assets/images/video.jpg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Gilroy
+      fonts:
+        - asset: fonts/Gilroy-ExtraBold.otf
+        - asset: fonts/Gilroy-Light.otf
+    - family: Helvetica Neue
+      fonts:
+        - asset: fonts/HelveticaNeue/HelveticaNeue.otf
+        - asset: fonts/HelveticaNeue/HelveticaNeue-Bold.otf
+        - asset: fonts/HelveticaNeue/HelveticaNeue-BoldItalic.otf
+        - asset: fonts/HelveticaNeue/HelveticaNeue-CondensedBlack.otf
+        - asset: fonts/HelveticaNeue/HelveticaNeue-CondensedBold.otf
+        - asset: fonts/HelveticaNeue/HelveticaNeue-Italic.otf
+        - asset: fonts/HelveticaNeue/HelveticaNeue-Light.otf
+        - asset: fonts/HelveticaNeue/HelveticaNeue-LightItalic.otf
+        - asset: fonts/HelveticaNeue/HelveticaNeue-Medium.otf
+        - asset: fonts/HelveticaNeue/HelveticaNeue-UltraLight.otf
+        - asset: fonts/HelveticaNeue/HelveticaNeue-UltraLightItalic.otf
+    - family: Helvetica
+      fonts:
+        - asset: fonts/Helvetica/Helvetica.ttf
+        - asset: fonts/Helvetica/Helvetica-Bold.ttf
+        - asset: fonts/Helvetica/Helvetica-BoldOblique.ttf
+        - asset: fonts/Helvetica/Helvetica-Compress.otf
+        - asset: fonts/Helvetica/Helvetica-Light.ttf
+        - asset: fonts/Helvetica/Helvetica-Oblique.ttf
+        - asset: fonts/Helvetica/Helvetica-Rounded.otf
+    - family: Noto Sans
+      fonts:
+        - asset: fonts/NotoSans/NotoSans-Bold.ttf
+        - asset: fonts/NotoSans/NotoSans-Regular.ttf
+        - asset: fonts/NotoSans/NotoSans-BoldItalic.ttf
+        - asset: fonts/NotoSans/NotoSans-Italic.ttf
+    - family: Winchester
+      fonts:
+        - asset: fonts/winchester/Winchester.otf
+    - family: Mermaid
+      fonts:
+        - asset: fonts/Mermaid/Mermaid.ttf
+    - family: Open Sans
+      fonts:
+        - asset: fonts/OpenSans/OpenSans-Bold.ttf
+        - asset: fonts/OpenSans/OpenSans-BoldItalic.ttf
+        - asset: fonts/OpenSans/OpenSans-ExtraBold.ttf
+        - asset: fonts/OpenSans/OpenSans-ExtraBoldItalic.ttf
+        - asset: fonts/OpenSans/OpenSans-Italic.ttf
+        - asset: fonts/OpenSans/OpenSans-Light.ttf
+        - asset: fonts/OpenSans/OpenSans-LightItalic.ttf
+        - asset: fonts/OpenSans/OpenSans-Regular.ttf
+        - asset: fonts/OpenSans/OpenSans-SemiBold.ttf
+        - asset: fonts/OpenSans/OpenSans-SemiBoldItalic.ttf
+    #    - family: MontSerrat
+    #      fonts:
+    #        - asset: fonts/MontSerrat/MontSerrat-Black.ttf
+    #        - asset: fonts/MontSerrat/MontSerrat-BlackItalic.ttf
+    #        - asset: fonts/MontSerrat/MontSerrat-Bold.ttf
+    #        - asset: fonts/MontSerrat/MontSerrat-BoldItalic.ttf
+    #        - asset: fonts/MontSerrat/MontSerrat-ExtraBold.ttf
+    #        - asset: fonts/MontSerrat/MontSerrat-ExtraBoldItalic.ttf
+    #        - asset: fonts/MontSerrat/MontSerrat-ExtraLight.ttf
+    #        - asset: fonts/MontSerrat/MontSerrat-ExtraLightItalic.ttf
+    #        - asset: fonts/MontSerrat/MontSerrat-Italic.ttf
+    #        - asset: fonts/MontSerrat/MontSerrat-Light.ttf
+    #        - asset: fonts/MontSerrat/MontSerrat-LightItalic.ttf
+    #        - asset: fonts/MontSerrat/MontSerrat-Medium.ttf
+    #        - asset: fonts/MontSerrat/MontSerrat-MediumItalic.ttf
+    #        - asset: fonts/MontSerrat/MontSerrat-Regular.ttf
+    #        - asset: fonts/MontSerrat/MontSerrat-SemiBold.ttf
+    #        - asset: fonts/MontSerrat/MontSerrat-SemiBoldItalic.ttf
+    #        - asset: fonts/MontSerrat/MontSerrat-Thin.ttf
+    #        - asset: fonts/MontSerrat/MontSerrat-ThinItalic.ttf
+    - family: Playfair
+      fonts:
+        - asset: fonts/PlayfairDisplay/PlayfairDisplay-Black.ttf
+        - asset: fonts/PlayfairDisplay/PlayfairDisplay-BlackItalic.ttf
+        - asset: fonts/PlayfairDisplay/PlayfairDisplay-Bold.ttf
+        - asset: fonts/PlayfairDisplay/PlayfairDisplay-BoldItalic.ttf
+        - asset: fonts/PlayfairDisplay/PlayfairDisplay-ExtraBold.ttf
+        - asset: fonts/PlayfairDisplay/PlayfairDisplay-ExtraBoldItalic.ttf
+        - asset: fonts/PlayfairDisplay/PlayfairDisplay-Italic.ttf
+        - asset: fonts/PlayfairDisplay/PlayfairDisplay-Medium.ttf
+        - asset: fonts/PlayfairDisplay/PlayfairDisplay-MediumItalic.ttf
+        - asset: fonts/PlayfairDisplay/PlayfairDisplay-Regular.ttf
+        - asset: fonts/PlayfairDisplay/PlayfairDisplay-SemiBold.ttf
+        - asset: fonts/PlayfairDisplay/PlayfairDisplay-SemiBoldItalic.ttf
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
